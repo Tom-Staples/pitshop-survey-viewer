@@ -24,7 +24,11 @@ const { data: surveys, error } = useFetchData(`${SERVER_ENDPOINT}surveys`)
     >
     <RouterLink v-for="survey in surveys" :key="survey" :to="survey" class="surveyLink"
       ><span class="material-symbols-sharp"> analytics </span>
-      <h3>{{ survey }}</h3></RouterLink
+      <h3>
+        {{
+          survey.substring(0, 1).toUpperCase() + survey.substring(1, 6) + ' ' + survey.substring(6)
+        }}
+      </h3></RouterLink
     >
   </nav>
 </template>
