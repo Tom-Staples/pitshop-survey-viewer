@@ -4,12 +4,17 @@ html {
   padding: 0;
   margin: 0;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  background-color: #cdcdcd;
+  background-color: #e7e7e7;
 }
 #app {
   display: flex;
 }
 
+.mainContent {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+}
 @font-face {
   font-family: Roboto;
   src: url('./assets/fonts/Roboto-Medium.ttf');
