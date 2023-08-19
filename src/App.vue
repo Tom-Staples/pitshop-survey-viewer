@@ -1,15 +1,11 @@
 <script setup>
 import { RouterView } from 'vue-router'
+import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <img src="./assets/images/pitShop-logo-light.svg" alt="pitshop logo" height="300" width="300" />
+  <NavBar />
   <RouterView />
 </template>
 
-<style>
-img {
-  display: block;
-  margin: auto;
-}
-</style>
+<style></style>
