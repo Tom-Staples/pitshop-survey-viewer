@@ -40,7 +40,7 @@ const { data: surveys, error } = useFetchData(`${SERVER_ENDPOINT}surveys`)
   width: 200px;
   padding: 10px;
   font-size: 1.5rem;
-  height: 100;
+  height: 100vh;
   background-color: #ffffff;
 }
 .surveyLink {

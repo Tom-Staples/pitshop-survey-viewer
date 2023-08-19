@@ -61,5 +61,7 @@ watch([data], () => {
 .mainContent {
   display: flex;
   flex-wrap: wrap;
+  height: 100vh;
+  overflow-y: scroll;
 }
 </style>
