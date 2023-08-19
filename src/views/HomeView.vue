@@ -1,5 +1,9 @@
 <script setup></script>
 
-<template></template>
+<template>
+  <main class="mainContent">
+    <h1>Home</h1>
+  </main>
+</template>
 
 <style></style>
